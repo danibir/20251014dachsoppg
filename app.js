@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/saturn', (req, res) => {
-    res.render('saturn')
+    res.render('saturnrings')
 });
 
 app.use((req, res)=>{
